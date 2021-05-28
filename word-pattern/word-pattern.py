@@ -8,8 +8,7 @@ class Solution:
         if len(split_s) != len(pat):
             return False
         else:
-            for i in range(0,len(split_s)):
-                print(split_s.index(split_s[i]))
+            for i in range(0, len(split_s)):
                 if split_s.index(split_s[i]) != pat.index(pat[i]):
                     return False
             return True
